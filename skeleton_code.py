@@ -3,10 +3,12 @@ class calculator:
         self.x1=x1
         self.x2=x2
     def add(self):
-        pass
+        print(self.x1+self.x2)
     def sub(self):
-        pass
+        print(self.x1-self.x2)
     def mul(self):
-        pass
+        print(self.x1*self.x2)
     def div(self):
-        pass
+        print(self.x1/self.x2)
+obj=calculator(1,2)
+obj.add()
